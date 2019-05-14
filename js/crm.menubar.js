@@ -78,7 +78,7 @@
             })
             .on('show.smapi', function(e, menu) {
               // Focus menu when opened with an accesskey
-              $(menu).siblings('a[accesskey]:not(:hover)').focus();
+              $(menu).siblings('a[accesskey]').focus();
             })
             .smartmenus(CRM.menubar.settings);
           initialized = true;
@@ -115,15 +115,13 @@
         .addClass('crm-menubar-hidden')
         .removeClass('crm-menubar-visible');
       if (showMessage === true && $('#crm-notification-container').length && initialized) {
-        var alert = CRM.alert('<a href="#" id="crm-restore-menu" style="text-align: center; margin-top: -8px;">' + _.escape(ts('Restore CiviCRM Menu')) + '</a>', '', 'none', {expires: 10000});
+        var alert = CRM.alert('<a href="#" id="crm-restore-menu" >' + _.escape(ts('Restore CiviCRM Menu')) + '</a>', ts('Menu hidden'), 'none', {expires: 10000});
         $('#crm-restore-menu')
-          .button({icons: {primary: 'fa-undo'}})
           .click(function(e) {
             e.preventDefault();
             alert.close();
             CRM.menubar.show(speed);
-          })
-          .parent().css('text-align', 'center').find('.ui-button-text').css({'padding-top': '4px', 'padding-bottom': '4px'});
+          });
       }
     },
     open: function(itemName) {

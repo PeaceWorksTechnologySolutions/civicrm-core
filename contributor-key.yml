@@ -56,6 +56,9 @@
 - github      : alexmarketaccess
   name        : Alex Block
 
+- github      : alexymik
+  name        : Alexy Mikhailichenko
+
 - github      : alifrumin
   name        : Alice Frumin
   organization: AGH Strategies
@@ -130,6 +133,10 @@
 - github      : autarch
   name        : Dave Rolsky
   jira        : autarch
+
+- github      : awasson
+  name        : Andrew Wasson
+  organization: Luna Design
 
 - github      : awzilkie
   name        : Adam Zilkie
@@ -307,7 +314,7 @@
 
 - github      : demeritcowboy
   name        : Dave D
-  jira        : demeritcowboy
+  jira        : Dave D
 
 - github      : dereklewis123
   name        : Derek Lewis
@@ -518,6 +525,15 @@
   name        : Guy Iaccarino
   organization: Greenleaf Advancement
   jira        : guyiac
+
+- github      : GValFr35
+
+- github      : kewljuice
+  name        : Wouter Hechtermans
+  organization: Calibrate
+
+- github      : khorporative
+  name        : Aivars
 
 - github      : h-c-c
   name        : Peter Hartmann
@@ -991,6 +1007,9 @@
   organization: CompuCorp
   jira        : mukesh
 
+- github      : mwestergaard
+  name        : Mark Westergaard
+
 - github      : nbrettell
   name        : Nathan Brettell
   jira        : nathan_b
@@ -1053,6 +1072,9 @@
 - name        : Pratiksha Dubey
   organization: Web Access
   jira        : pratiksha
+
+- github      : prondubuisi
+  name        : Onyemenam Ndubuisi
 
 - name        : Richard Edgar
   jira        : redgar
@@ -1141,6 +1163,10 @@
 
 - github      : ray-wright
   name        : Ray Wright
+
+- github      : reecebenson
+  name        : Reece Benson
+  organization: Circle Interactive
 
 - name        : Renaee Churches
   organization: Play Australia
